@@ -7,13 +7,31 @@ h1, header, .brand, h2, h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+profileimage {
+    float: left;
+    margin: 15px;
+}
+
+
+
+.container {
+    width: 960px;
+}
+
 
 .container-fluid {
     padding: 0px 50px 0px 50px;
 }
 
+
 .main-section, .sidebar {
-    background-color: white;
+    background-color: #ffffff;
+    border-top-color: #dddddd;
     margin: 20px;
 }
 
